@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodDelivery" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/greenEnd</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+    <style name="Theme.FoodDelivery" parent="Base.Theme.FoodDelivery" />
+
+    <style name="Theme.FoodDelivery.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="App.Custom.IndicatorNav" parent="Widget.Design.BottomNavigationView">
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="Theme.FoodDelivery.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FoodDelivery.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
